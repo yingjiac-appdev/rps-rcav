@@ -1,0 +1,70 @@
+* {
+  /*border: thin red dashed;*/
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px red solid;
+  height: 100vh;
+}
+
+.container {
+  width: 960px;
+  border: 5px green solid;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row-center {
+  display: flex;
+  justify-content: center;
+}
+
+.mb {
+  margin-bottom: 10px;
+}
+
+.centered {
+  text-align:center;
+}
+
+.button {
+  color:teal; 
+  border: 1px teal solid; 
+  border-radius: 5px; 
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  text-align: center; 
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+
+}
+
+.player-card {
+  border: thin green solid;
+  width: 49%;
+}
+
+.computer-card {
+  border: thin red solid;
+  width: 49%;
+}
+
+.outcome-card {
+  border: thin red solid;
+  background-color: pink;
+  width: 66%;
+}
+
+.one-third {
+  width: 32%;
+}
